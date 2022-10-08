@@ -1,14 +1,14 @@
 {
-  "uuid": "e482241e0f2482cfacfe216c8adac71f",
-  "path": "Offline/RC%20Car%20Project%20Remote",
-  "name": "RC Car Project Remote",
+  "uuid": "54b49d1fe3cefeb493dbb57dd7759c8e",
+  "path": "Offline/RC_Car_Project_Remote",
+  "name": "RC_Car_Project_Remote",
   "content": "",
-  "created_at": "2022-09-30 10:55:28",
-  "updated_at": "2022-10-08 19:46:17",
+  "created_at": "2022-10-08 19:49:55",
+  "updated_at": "2022-10-08 23:15:10",
   "stick": "",
   "documents": [
     {
-      "uuid": "7e1a2c01039c8d357f1fb55e577f328c",
+      "uuid": "6568bc35bb9a713c0964672f85006539",
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
@@ -30,11 +30,12 @@
         "161be71a54d4485d9ce3dee25399f049": 1,
         "4439ff8d4269ac30d55af3439a30f0ec": 3,
         "3cdcc27c074840c8883e2f6809dcf1c0": 1,
-        "4b673387b46a48cb9ac451b9bd5af280": 5,
+        "4b673387b46a48cb9ac451b9bd5af280": 6,
         "416fb0ff126b4367937d22d78c3b9e3b": 1,
-        "764e0207a26d4ae8aa60725212e3e74c": 1,
         "4363d0ababf744a2882808bd1888761b": 2,
-        "496d1e7576ab469baa667025a1511066": 2
+        "496d1e7576ab469baa667025a1511066": 3,
+        "f4aeff6dff354751823067da04304c51": 1,
+        "764e0207a26d4ae8aa60725212e3e74c": 1
       },
       "BOM": [
         [
@@ -79,6 +80,21 @@
           5,
           "C0805",
           "C3,C4,C5,C6,C7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C149614",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "AC0805JRNPO9BN220",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "4b673387b46a48cb9ac451b9bd5af280"
+          }
+        ],
+        [
+          "12pF",
+          1,
+          "C0805",
+          "C8",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C149614",
@@ -405,18 +421,48 @@
             "puuid": "31a453d5adfc45cea944a6450adf2918",
             "uuid": "496d1e7576ab469baa667025a1511066"
           }
+        ],
+        [
+          "FTDI Connector",
+          1,
+          "HDR-TH_4P-P2.54-V-M-1",
+          "U17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900016163",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "2.54*4单排",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "31a453d5adfc45cea944a6450adf2918",
+            "uuid": "496d1e7576ab469baa667025a1511066"
+          }
+        ],
+        [
+          "72MHz",
+          1,
+          "OSC-SMD_4P-L5.0-W3.2-BL_SG5032",
+          "X1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C387226",
+            "BOM_Manufacturer": "Shenzhen SCTF Elec",
+            "BOM_Manufacturer Part": "S5D13.560000A20F30T",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "afa17ef5b0ef4ab0960f97d74d78c54b",
+            "uuid": "f4aeff6dff354751823067da04304c51"
+          }
         ]
       ],
-      "updateTime": 1665249481,
-      "createTime": 1664528128,
+      "updateTime": 1665263710,
+      "createTime": 1665251395,
       "histories": [],
-      "created_at": "2022-09-30 10:55:28",
-      "updated_at": "2022-10-08 19:18:01"
+      "created_at": "2022-10-08 19:49:55",
+      "updated_at": "2022-10-08 23:15:10"
     }
   ],
   "sort": [],
-  "title": "RC Car Project Remote",
-  "foldername": "RC Car Project Remote",
-  "schfilename": "RC Car Project Remote.json",
-  "schfilemtime": 1665249481210
+  "title": "RC_Car_Project_Remote",
+  "foldername": "RC_Car_Project_Remote",
+  "schfilename": "RC_Car_Project_Remote.json",
+  "schfilemtime": 1665263710504
 }
