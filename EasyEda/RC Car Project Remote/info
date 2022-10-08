@@ -1,0 +1,422 @@
+{
+  "uuid": "e482241e0f2482cfacfe216c8adac71f",
+  "path": "Offline/RC%20Car%20Project%20Remote",
+  "name": "RC Car Project Remote",
+  "content": "",
+  "created_at": "2022-09-30 10:55:28",
+  "updated_at": "2022-10-08 19:46:17",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "7e1a2c01039c8d357f1fb55e577f328c",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b08cc7c8c15d4559b8ec86d3f4ca8ce1": 1,
+        "5953437b911d454e949c5f8a46157c07": 19,
+        "022470177565dcfe1d3e49eaa4b7a316": 2,
+        "e26669256bd54801a29d1c3c63bae658": 2,
+        "66c79e57ec73e48b1b55e8fee21137cd": 2,
+        "4e7860277afb4dde876d512b695ed0aa": 1,
+        "cb451a8dd4344d8a92eea0b01c12a405": 4,
+        "d64d79bfba1049eb9fa74e9fdcaf3c60": 12,
+        "3099a58e031c4b33b278aefc1bd13b8e": 1,
+        "db1c89295e2b4f2ca49663327a96151c": 1,
+        "45263eac0bce4668bb0b1031f17bc557": 1,
+        "7347be22b5856eba3ffccb74c7404572": 1,
+        "161be71a54d4485d9ce3dee25399f049": 1,
+        "4439ff8d4269ac30d55af3439a30f0ec": 3,
+        "3cdcc27c074840c8883e2f6809dcf1c0": 1,
+        "4b673387b46a48cb9ac451b9bd5af280": 5,
+        "416fb0ff126b4367937d22d78c3b9e3b": 1,
+        "764e0207a26d4ae8aa60725212e3e74c": 1,
+        "4363d0ababf744a2882808bd1888761b": 2,
+        "496d1e7576ab469baa667025a1511066": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "YS-MBZ9042C03R16",
+          1,
+          "BUZ-TH_BD9.0-P4.00-D0.6-FD",
+          "BUZZER1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C409836",
+            "BOM_Manufacturer": "Fengming",
+            "BOM_Manufacturer Part": "YS-MBZ9042C03R16",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "c64ae7d2c6d046ba99ba3f1311496e78",
+            "uuid": "3099a58e031c4b33b278aefc1bd13b8e"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "CAP-SMD_BD5.0-L5.3-W5.3-FD",
+          "C1,C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ROQANG",
+            "BOM_Manufacturer Part": "RVT1H100M0505",
+            "BOM_Supplier Part": "C72487",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "45fb9552a18349cfbac4f8f3e8af134a",
+            "uuid": "022470177565dcfe1d3e49eaa4b7a316"
+          }
+        ],
+        [
+          "0.1uF",
+          5,
+          "C0805",
+          "C3,C4,C5,C6,C7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C149614",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "AC0805JRNPO9BN220",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "4b673387b46a48cb9ac451b9bd5af280"
+          }
+        ],
+        [
+          "POT_TR",
+          1,
+          "CONN-SMD_3P-P1.25_1.25T-3PWT",
+          "CN1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "1.25T-3PWT",
+            "BOM_Supplier Part": "C22075",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "23d9f844fdfe4b89a1d961cd0827f99e",
+            "uuid": "66c79e57ec73e48b1b55e8fee21137cd"
+          }
+        ],
+        [
+          "POT_DIR",
+          1,
+          "CONN-SMD_3P-P1.25_1.25T-3PWT",
+          "CN2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "1.25T-3PWT",
+            "BOM_Supplier Part": "C22075",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "23d9f844fdfe4b89a1d961cd0827f99e",
+            "uuid": "66c79e57ec73e48b1b55e8fee21137cd"
+          }
+        ],
+        [
+          "IN4007",
+          1,
+          "SMA_L4.3-W2.6-LS5.1-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900004719",
+            "BOM_Manufacturer Part": "IN4007",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2b64a4a35f964dc79d4564c8971337ab",
+            "uuid": "4e7860277afb4dde876d512b695ed0aa"
+          }
+        ],
+        [
+          "LED0603",
+          19,
+          "LED_CHIP-LED0603",
+          "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9,LED10,LED11,LED12,LED13,LED14,LED15,LED16,LED17,LED18,LED19",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "fca4b6ee7b0e47f3b96ba2796bcc6f26",
+            "uuid": "5953437b911d454e949c5f8a46157c07"
+          }
+        ],
+        [
+          "360",
+          7,
+          "R0805",
+          "R1,R5,R7,R8,R12,R13,R17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC0805FR-07100RL",
+            "BOM_Supplier Part": "C105577",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "d64d79bfba1049eb9fa74e9fdcaf3c60"
+          }
+        ],
+        [
+          "360Ω",
+          2,
+          "R1206",
+          "R3,R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "1206W4F1002T5E",
+            "BOM_Supplier Part": "C17902",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "4439ff8d4269ac30d55af3439a30f0ec"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "R1206",
+          "R6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "1206W4F1002T5E",
+            "BOM_Supplier Part": "C17902",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "4439ff8d4269ac30d55af3439a30f0ec"
+          }
+        ],
+        [
+          "10k",
+          4,
+          "R0805",
+          "R9,R10,R11,R14",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC0805FR-07100RL",
+            "BOM_Supplier Part": "C105577",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "d64d79bfba1049eb9fa74e9fdcaf3c60"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R0805",
+          "R15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC0805FR-07100RL",
+            "BOM_Supplier Part": "C105577",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "d64d79bfba1049eb9fa74e9fdcaf3c60"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-ADJ-TH_RK09K1130AJ3",
+          "R18",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C470295",
+            "BOM_Manufacturer": "ALPSALPINE(阿尔卑斯阿尔派)",
+            "BOM_Manufacturer Part": "RK09K1130AP5",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "29b73552a46e4295833a2f2f85523387",
+            "uuid": "db1c89295e2b4f2ca49663327a96151c"
+          }
+        ],
+        [
+          "SK-12D29-G060",
+          1,
+          "SW-TH_G-SWITCH_SK-12D29-G060",
+          "SW1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2848877",
+            "BOM_Manufacturer": "G-Switch(品赞)",
+            "BOM_Manufacturer Part": "SK-12D29-G060",
+            "puuid": "a25035fd7fc446a4a5ddd65f3e974de6",
+            "uuid": "45263eac0bce4668bb0b1031f17bc557"
+          }
+        ],
+        [
+          "STP16C596",
+          1,
+          "HTSSOP-24",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "STP16C596",
+            "BOM_Supplier Part": "914-2948",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "ST microelectronics",
+            "puuid": "550d43ec28c74611a3c989d332a290d5",
+            "uuid": "b08cc7c8c15d4559b8ec86d3f4ca8ce1"
+          }
+        ],
+        [
+          "WTC01W02BA",
+          1,
+          "CONN-SMD_2P-P1.25_BZCN_WTC01W02BA",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C5120226",
+            "BOM_Manufacturer": "BZCN(博众电气)",
+            "BOM_Manufacturer Part": "WTC01W02BA",
+            "puuid": "2e37530697014f099b71cc8e17ff783e",
+            "uuid": "161be71a54d4485d9ce3dee25399f049"
+          }
+        ],
+        [
+          "AMS1117CD-3.3",
+          2,
+          "TO-252-2_L6.6-W6.1-P4.57-LS9.9-BR-CW",
+          "U3,U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C841796",
+            "BOM_Manufacturer": "Advanced Monolithic Systems",
+            "BOM_Manufacturer Part": "AMS1117CD-3.3",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2070be737d2d4c78a311b6f05f9d553e",
+            "uuid": "e26669256bd54801a29d1c3c63bae658"
+          }
+        ],
+        [
+          "switch",
+          1,
+          "C0805",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900009443",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "0.5pF-C0805",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "3cdcc27c074840c8883e2f6809dcf1c0"
+          }
+        ],
+        [
+          "PUSH BUTTON SWITCH smd",
+          4,
+          "PUSH_BUTTON_6X6_SMD",
+          "U6,U7,U8,U9",
+          {
+            "BOM_Manufacturer Part": "HALO PUSH BUTTON SWITCH",
+            "puuid": "34397395214e4511b41427a56de503bc",
+            "uuid": "cb451a8dd4344d8a92eea0b01c12a405"
+          }
+        ],
+        [
+          "STM32F103C8T6",
+          1,
+          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+          "U10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "STM32F103C8T6",
+            "BOM_Supplier Part": "C8734",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "4a13c433861640209b7106f419770da9",
+            "uuid": "7347be22b5856eba3ffccb74c7404572"
+          }
+        ],
+        [
+          "HC-05",
+          1,
+          "BULETM-SMD_HC-05",
+          "U11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900001063",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "HC-05",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "47889419f30b4c9d8e4f9456f0fdfda2",
+            "uuid": "416fb0ff126b4367937d22d78c3b9e3b"
+          }
+        ],
+        [
+          "NRF24L01 PIN",
+          1,
+          "HDR-TH_8P-P2.54-V-F-R2-C4-S2.54",
+          "U12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2977588",
+            "BOM_Manufacturer": "ZHOURI(洲日)",
+            "BOM_Manufacturer Part": "2.54-2*4",
+            "puuid": "e9cb1663613c46dfa133c4b24eed6a8a",
+            "uuid": "764e0207a26d4ae8aa60725212e3e74c"
+          }
+        ],
+        [
+          "JUMPER_BOOT0",
+          1,
+          "HDR-TH_3P-P2.54-V-M-1",
+          "U13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900016162",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "2.54*3单排",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7e70b923819e4f3bb9fdeaf4abdca9d3",
+            "uuid": "4363d0ababf744a2882808bd1888761b"
+          }
+        ],
+        [
+          "JUMPER_BOOT1",
+          1,
+          "HDR-TH_3P-P2.54-V-M-1",
+          "U14",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900016162",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "2.54*3单排",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7e70b923819e4f3bb9fdeaf4abdca9d3",
+            "uuid": "4363d0ababf744a2882808bd1888761b"
+          }
+        ],
+        [
+          "LCD OLED PIN",
+          2,
+          "HDR-TH_4P-P2.54-V-M-1",
+          "U15,U16",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900016163",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "2.54*4单排",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "31a453d5adfc45cea944a6450adf2918",
+            "uuid": "496d1e7576ab469baa667025a1511066"
+          }
+        ]
+      ],
+      "updateTime": 1665249481,
+      "createTime": 1664528128,
+      "histories": [],
+      "created_at": "2022-09-30 10:55:28",
+      "updated_at": "2022-10-08 19:18:01"
+    }
+  ],
+  "sort": [],
+  "title": "RC Car Project Remote",
+  "foldername": "RC Car Project Remote",
+  "schfilename": "RC Car Project Remote.json",
+  "schfilemtime": 1665249481210
+}
